@@ -3,13 +3,13 @@ export const site = {
   name: "VTS Services",
   legalName: "VTS Services",
   domain: "vts-services.com", // change when ready
-  email: "leads@vts-services.com", // change
+  email: "operations@vts-services.com", // change
   phone: "+971 XX XXX XXXX", // change
   whatsapp: "+971XXXXXXXXX", // change
   locationLine: "UAE (International delivery available)", // change
-  tagline: "Fire alarm services for large-scale projects.",
+  tagline: "Certified fire alarm & life safety technologies for regulated projects.",
   description:
-    "VTS Services provides fire alarm installation, testing, commissioning, maintenance, and troubleshooting for commercial and large-scale projects. Fast response, compliant delivery, and clear reporting.",
+    "VTS Services is a specialist supplier of certified fire alarm and life safety technologies. We support regulated and high-risk projects with EN 54 / CPR-compliant products, specification support, and authority-ready documentation. VTS does not provide installation, commissioning, or maintenance services.",
   nav: [
     { label: "Services", href: "/services" },
     { label: "Sectors", href: "/sectors" },
@@ -19,42 +19,49 @@ export const site = {
   ],
   services: [
     {
-      slug: "fire-alarm-installation",
-      title: "Fire Alarm Installation",
+      slug: "fire-alarm-technology-supply",
+      title: "Fire Alarm Technology Supply",
       excerpt:
-        "End-to-end installation for new builds and refurbishments, delivered to spec with clean handover documentation.",
-      bullets: ["Site survey & scope", "Install & integrate", "Testing support", "Handover packs"],
+        "Supply of EN 54 / CPR-certified fire alarm and detection technologies for regulated projects.",
+      bullets: [
+        "Approved manufacturer products",
+        "Certified and traceable equipment",
+        "Wired and wireless system options",
+        "Documentation for authority approval",
+      ],
     },
     {
-      slug: "fire-alarm-maintenance",
-      title: "Fire Alarm Maintenance (AMC)",
+      slug: "system-specification-support",
+      title: "System Specification & Technical Support",
       excerpt:
-        "Planned preventative maintenance to reduce faults, keep compliance on track, and avoid downtime.",
-      bullets: ["PPM visits", "Fault trend reporting", "Spare strategy", "SLA response options"],
+        "System-level technical support aligned to consultant design, contractor delivery, and regulatory approval.",
+      bullets: [
+        "Product selection and compliance alignment",
+        "System architecture guidance",
+        "Authority-ready technical submissions",
+        "Coordination with consultants and integrators",
+      ],
     },
     {
-      slug: "fire-alarm-testing-inspection",
-      title: "Testing, Inspection & Reporting",
+      slug: "intelligent-detection-solutions",
+      title: "Intelligent Detection Solutions",
       excerpt:
-        "Routine testing and inspection with clear reporting for facilities teams and auditors.",
-      bullets: ["Device testing", "Panel checks", "Cause & effect checks", "Compliance-ready reports"],
-    },
-    {
-      slug: "fire-alarm-troubleshooting-repairs",
-      title: "Troubleshooting & Repairs",
-      excerpt:
-        "Rapid diagnosis and repairs to get systems stable again—minimising disruption and repeat callouts.",
-      bullets: ["On-site fault finding", "Isolate root cause", "Repair/replace", "Prevent recurrence"],
+        "Advanced fire detection technologies designed to reduce false and unwanted alarms.",
+      bullets: [
+        "Multi-sensor detection options",
+        "Nuisance alarm differentiation",
+        "High-occupancy and sensitive environments",
+        "Improved alarm credibility",
+      ],
     },
   ],
   sectors: [
-    "Commercial Offices",
-    "Retail & Malls",
-    "Hospitality (Hotels & Resorts)",
-    "Industrial & Warehousing",
-    "Healthcare",
-    "Education",
-    "Residential Towers",
-    "Data Centres",
+    "Government & Civil Defence",
+    "Commercial & Mixed-Use Developments",
+    "Hospitality & Healthcare",
+    "Industrial & Infrastructure",
+    "Education & Public Buildings",
+    "High-Rise Residential",
+    "Data Centres & Mission-Critical",
   ],
 };

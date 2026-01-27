@@ -7,18 +7,19 @@ import { site } from "@/lib/site";
 export default function HomePage() {
   return (
     <main>
-      <section className="mx-auto max-w-6xl px-6 py-16 md:py-20 bg-[radial-gradient(1200px_circle_at_20%_10%,rgba(255,46,46,0.14),transparent_55%),radial-gradient(900px_circle_at_85%_20%,rgba(246,177,0,0.10),transparent_60%)]">
+      <section className="relative w-full overflow-hidden">
+        <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(1200px_circle_at_20%_10%,rgba(255,46,46,0.14),transparent_55%),radial-gradient(900px_circle_at_85%_20%,rgba(246,177,0,0.10),transparent_60%)]" />
+        <div className="mx-auto max-w-6xl px-6 py-16 md:py-20">
         <div className="grid gap-10 md:grid-cols-2 md:items-center">
           <div>
             <p className="text-sm font-medium text-vts-muted">
-              UAE-based • International vendor
+              UAE-based • Fire protection technology supplier
             </p>
             <h1 className="mt-3 text-4xl font-semibold tracking-tight md:text-5xl">
-              Fire alarm services built for large-scale projects.
+              Certified fire alarm & life safety technologies for large-scale projects.
             </h1>
             <p className="mt-4 text-lg text-vts-muted">
-              Installation, maintenance, testing and troubleshooting — delivered with clear reporting,
-              structured handovers, and dependable response times.
+              We supply EN 54 / CPR-compliant fire alarm systems — wired and wireless detection, intelligent control, and command interfaces — backed by documentation fit for authority approvals. No installation role.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
@@ -37,9 +38,9 @@ export default function HomePage() {
 
             <div className="mt-10 grid gap-4 sm:grid-cols-3">
               {[
-                { k: "SLA-led", v: "Response options" },
-                { k: "Compliant", v: "Reports & handover" },
-                { k: "Scalable", v: "Multi-site delivery" },
+                { k: "EN 54 / CPR", v: "Certified products" },
+                { k: "Authority-ready", v: "Submittals & docs" },
+                { k: "Scalable", v: "Modular architecture" },
               ].map((x) => (
                 <div key={x.k} className="rounded-2xl border border-vts-border bg-vts-surface p-4 shadow-soft">
                   <div className="text-sm font-semibold">{x.k}</div>
@@ -53,10 +54,10 @@ export default function HomePage() {
             <div className="text-sm font-semibold">What you get</div>
             <ul className="mt-4 space-y-3 text-sm text-vts-text">
               {[
-                "Clear scope and deliverables (no vague promises).",
-                "Documentation and reporting that facilities teams actually use.",
-                "Reduced repeat faults through root-cause troubleshooting.",
-                "A service partner built for complex, multi-stakeholder projects.",
+                "Certified, traceable products with manufacturer documentation.",
+                "Specification support and authority-ready submissions.",
+                "Intelligent detection designed to reduce false and unwanted alarms.",
+                "A technology partner focused on reliability — no installation or construction activities.",
               ].map((t) => (
                 <li key={t} className="flex gap-2">
                   <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-vts-accent" />
@@ -66,6 +67,7 @@ export default function HomePage() {
             </ul>
           </div>
         </div>
+        </div>
       </section>
 
       <section className="mx-auto max-w-6xl px-6 pb-16">
@@ -73,7 +75,7 @@ export default function HomePage() {
           <div>
             <h2 className="text-2xl font-semibold tracking-tight">Services</h2>
             <p className="mt-2 text-vts-muted">
-              Built for contractors, consultants and facilities teams.
+              Technology supply and specification support for consultants, contractors and authorities.
             </p>
           </div>
           <Link href="/services" className="hidden text-sm font-medium text-vts-accent hover:text-vts-accentHover transition-colors md:block">
