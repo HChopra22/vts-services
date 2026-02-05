@@ -67,7 +67,7 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 await resend.emails.send({
   from: process.env.FROM_EMAIL || "onboarding@resend.dev",
   to: [process.env.CONTACT_TO_EMAIL!],
-  replyTo: email, // <— IMPORTANT: replies go to the customer
+  replyTo: email,
   subject: `New enquiry from ${name}`,
   text: `Name: ${name}
 Email: ${email}
