@@ -4,8 +4,8 @@ export const site = {
   legalName: "VTS Services",
   domain: "vts-services.com", // change when ready
   email: "operations@vts-services.com", // change
-  phone: "+971 XX XXX XXXX", // change
-  whatsapp: "+971XXXXXXXXX", // change
+  phone: "+971 56 559 5597", // change
+  whatsapp: "+971565595597", // change
   locationLine: "UAE (International delivery available)", // change
   tagline: "Certified fire alarm & life safety technologies for regulated projects.",
   description:

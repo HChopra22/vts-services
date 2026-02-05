@@ -1,13 +1,24 @@
 // components/Header.tsx
 import Link from "next/link";
+import Image from "next/image";
 import { site } from "@/lib/site";
 
 export default function Header() {
   return (
     <header className="border-b border-vts-border bg-vts-bg/80 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <Link href="/" className="font-semibold tracking-tight text-vts-text hover:text-vts-accent transition-colors">
-          {site.name}
+        <Link
+          href="/"
+          className="flex items-center gap-3 font-semibold tracking-tight text-vts-text hover:text-vts-accent transition-colors"
+        >
+          <Image
+            src="/favicon.ico" // change to your real path: /logo.png, /vts-logo.webp, etc.
+            alt={`${site.name} logo`}
+            width={32}
+            height={32}
+            priority
+          />
+          <span>{site.name}</span>
         </Link>
 
         <nav className="hidden items-center gap-6 md:flex">

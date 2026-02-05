@@ -35,12 +35,12 @@ export default function Footer() {
                   {site.email}
                 </a>
               </div>
-              {/* <div>
+              <div>
                 <span className="font-medium text-vts-text">Phone:</span>{" "}
                 <a className="hover:text-vts-accent transition-colors" href={`tel:${site.phone}`}>
                   {site.phone}
                 </a>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>

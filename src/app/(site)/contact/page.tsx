@@ -29,12 +29,12 @@ export default function ContactPage() {
                   {site.email}
                 </a>
               </div>
-              {/* <div>
+              <div>
                 <span className="font-medium">Phone:</span>{" "}
                 <a className="hover:text-vts-accent transition-colors" href={`tel:${site.phone}`}>
                   {site.phone}
                 </a>
-              </div> */}
+              </div>
             </div>
 
             <div className="mt-6 text-vts-muted">Typical response: within 1 business day.</div>
