@@ -2,11 +2,12 @@
 export const site = {
   name: "VTS Services",
   legalName: "VTS Services",
-  domain: "vts-services.com", // change when ready
-  email: "operations@vts-services.com", // change
-  phone: "+971 56 559 5597", // change
-  whatsapp: "+971565595597", // change
-  locationLine: "UAE (International delivery available)", // change
+  domain: "vts-services.com",
+  email: "operations@vts-services.com",
+  phone: "+971 56 559 5597",
+  whatsapp: "+971565595597",
+  whatsappDisplay: "+971 56 559 5597",
+  locationLine: "UAE (International delivery available)",
   tagline: "Certified fire alarm & life safety technologies for regulated projects.",
   description:
     "VTS Services is a specialist supplier of certified fire alarm and life safety technologies. We support regulated and high-risk projects with EN 54 / CPR-compliant products, specification support, and authority-ready documentation. VTS does not provide installation, commissioning, or maintenance services.",

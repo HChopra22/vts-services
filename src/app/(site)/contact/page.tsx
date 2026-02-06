@@ -37,6 +37,35 @@ export default function ContactPage() {
               </div>
             </div>
 
+            <div className="mt-6 rounded-2xl border border-green-500/30 bg-green-500/5 p-5">
+              <div className="flex items-center justify-between gap-4">
+                <div>
+                  <div className="text-sm font-semibold text-green-600">WhatsApp</div>
+                  <div className="mt-1 text-sm font-medium">
+                    <a
+                      href={`https://wa.me/${site.whatsapp}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:underline"
+                    >
+                      {site.whatsappDisplay}
+                    </a>
+                  </div>
+                  <div className="mt-1 text-xs text-vts-muted">
+                    Fastest way to reach us for urgent or live project queries
+                  </div>
+                </div>
+
+                <a
+                  href={`https://wa.me/${site.whatsapp}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center rounded-full bg-green-600 px-4 py-2 text-xs font-semibold text-white transition hover:bg-green-700"
+                >
+                  Chat on WhatsApp
+                </a>
+              </div>
+            </div>
             <div className="mt-6 text-vts-muted">Typical response: within 1 business day.</div>
           </div>
         </div>
